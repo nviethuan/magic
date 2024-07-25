@@ -1118,4 +1118,52 @@ var Types = []FileType{
 		Extension:   "zst",
 		MIME:        "",
 	},
+	
+	{
+		Magic:       []byte{0x00, 0x00, 0x00, 0x0C, 0x6A, 0x50, 0x20, 0x20, 0x0D, 0x0A, 0x1A, 0x0A},
+		Offset:      0,
+		Description: "JPEG 2000 image file",
+		Extension:   "jp2",
+		MIME:        "",
+	},
+
+	{
+		Magic:       []byte{0xFF, 0x4F, 0xFF, 0x51},
+		Offset:      0,
+		Description: "JPEG 2000 image file",
+		Extension:   "jp2",
+		MIME:        "",
+	},
+	
+	{
+		Magic:       []byte{0xFF, 0x4F, 0xFF, 0x51},
+		Offset:      0,
+		Description: "JPEG 2000 image file",
+		Extension:   "jp2",
+		MIME:        "",
+	},
+	
+	// https://www.researchgate.net/publication/346527330_Validation_Analysis_of_Scalable_Vector_Graphics_SVG_File_Upload_using_Magic_Number_and_Document_Object_Model_DOM
+	{
+		Magic:       []byte{0x3C, 0x3F, 0x78, 0x6D, 0x6C},
+		Offset:      0,
+		Description: "XML ~ svg",
+		Extension:   "svg",
+		MIME:        "",
+	},
+	{
+		Magic:       []byte{0x3C, 0x73, 0x76, 0x67, 0x20},
+		Offset:      0,
+		Description: "XML ~ svg",
+		Extension:   "svg",
+		MIME:        "",
+	},
+
+	{
+		Magic:       []byte{0x66, 0x74, 0x79, 0x70, 0x68, 0x65, 0x69, 0x63},
+		Offset:      0,
+		Description: "High Efficiency Image Container (HEIC)",
+		Extension:   "heic",
+		MIME:        "",
+	},
 }
