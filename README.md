@@ -13,7 +13,7 @@ A description and a suggested file extension are provided where relevant, and MI
 ```go
 package main
 
-import "github.com/liamg/magic"
+import "github.com/simply-sakal/magic"
 
 func main() {
 
