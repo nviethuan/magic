@@ -1161,7 +1161,7 @@ var Types = []FileType{
 
 	{
 		Magic:       []byte{0x66, 0x74, 0x79, 0x70, 0x68, 0x65, 0x69, 0x63},
-		Offset:      0,
+		Offset:      4,
 		Description: "High Efficiency Image Container (HEIC)",
 		Extension:   "heic",
 		MIME:        "",
