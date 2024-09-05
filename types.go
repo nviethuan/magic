@@ -301,7 +301,7 @@ var Types = []FileType{
 	},
 	
 	{
-		Magic:       []byte{0xFF, 0xD8, 0xFF, 0xFF},
+		Magic:       []byte{0xFF, 0xD8, 0xFF, 0xE1},
 		Offset:      0,
 		Description: "JPEG raw or in the JFIF or Exif file format",
 		Extension:   "jpg",
