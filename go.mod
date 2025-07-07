@@ -1,4 +1,4 @@
-module github.com/simply-sakal/magic
+module github.com/nviethuan/magic
 
 go 1.20
 
